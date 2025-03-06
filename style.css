@@ -3,7 +3,6 @@
 body {
     background-color: #f5eaff;
     font-family: 'Fredoka', sans-serif;
-
 }
 
 .container {
@@ -21,28 +20,12 @@ img {
     height: 600px;
     width: 600px;
     margin-top: 40px;
-
 }
 
 h1 {
     text-align: center;
-    color: blueviolet;
+    color: #BA68C8;
     font-size: 50px;
-
-}
-
-h2 {
-    font-size: 40px;
-    padding-left: 15px;
-    margin-top: auto;
-    margin-bottom: -15px;
-
-}
-
-p {
-    font-size: 30px;
-    padding-left: 15px;
-    margin-bottom: 60px;
 }
 
 .form {
@@ -52,10 +35,32 @@ p {
     margin-left: 70px;
 }
 
+h2 {
+    font-size: 40px;
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: -15px;
+}
+
+p {
+    font-size: 30px;
+    padding-left: 15px;
+    margin-bottom: 60px;
+}
+
 .name {
     display: flex;
-
 }
+
+.fname {
+    width: 40%
+}
+
+.lname {
+    padding-left: 100px;
+    width: 40%
+}
+
 
 .name label {
     width: 50%;
@@ -72,8 +77,23 @@ form input {
     border: solid black 1px;
 }
 
+#firsteye {
+    position: absolute;
+    right: 407px;
+    background-color: #f5eaff;
+    top: 500px;
+}
+
+#secondeye {
+    position: absolute;
+    right: 407px;
+    background-color: #f5eaff;
+    top: 600px;
+
+}
+
 #submit {
-    background-color: blueviolet;
+    background-color: #BA68C8;
     color: white;
     font-size: 20px;
     cursor: pointer;
@@ -84,18 +104,15 @@ form input {
 
 }
 
-.fname {
-    width: 40%
-}
-
-.lname {
-    padding-left: 100px;
-    width: 40%
-}
-
 section {
     text-align: center;
     margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #BA68C8;
+    font-weight: 900;
 }
 
 span {
@@ -129,31 +146,10 @@ i {
     background-color: white;
 }
 
-a {
-    text-decoration: none;
-    font-weight: blueviolet bold;
-    font-weight: 900;
-}
-
 #google {
     font-size: 5px;
     margin-left: 80px;
     background-color: white;
-}
-
-#secondeye {
-    position: absolute;
-    right: 398px;
-    background-color: #f5eaff;
-    top: 600px;
-
-}
-
-#firsteye {
-    position: absolute;
-    right: 398px;
-    background-color: #f5eaff;
-    top: 500px;
 }
 
 #facebook {
