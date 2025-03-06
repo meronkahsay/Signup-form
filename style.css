@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka&display=swap');
+
+body {
+    background-color: #f5eaff;
+    font-family: 'Fredoka', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    margin-left: 210px;
+    margin-top: 50px;
+}
+
+.image {
+    width: 35%;
+    height: 100%;
+}
+
+img {
+    height: 600px;
+    width: 600px;
+    margin-top: 40px;
+
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+
+}
+
+h2 {
+    font-size: 40px;
+    padding-left: 15px;
+    margin-top: auto;
+    margin-bottom: -15px;
+
+}
+
+p {
+    font-size: 30px;
+    padding-left: 15px;
+    margin-bottom: 60px;
+}
+
+.form {
+    width: 35%;
+    padding: 35px;
+    border-left: solid gray 2px;
+    margin-left: 70px;
+}
+
+.name {
+    display: flex;
+
+}
+
+.name label {
+    width: 50%;
+}
+
+form input {
+    width: 97%;
+    height: 43px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: none;
+    border: solid black 1px;
+}
+
+#submit {
+    background-color: blueviolet;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+
+}
+
+.fname {
+    width: 40%
+}
+
+.lname {
+    padding-left: 100px;
+    width: 40%
+}
+
+section {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    color: gray;
+}
+
+span:before,
+span:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid gray;
+    margin: auto;
+}
+
+i {
+
+    text-align: center;
+    font-size: 40px;
+    margin: 7px 15px 0 px;
+    background-color: azure;
+    padding-top: 2px;
+    padding-right: 40px;
+}
+
+#apple {
+    margin-left: 126px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    font-weight: blueviolet bold;
+    font-weight: 900;
+}
+
+#google {
+    font-size: 5px;
+    margin-left: 80px;
+    background-color: white;
+}
+
+#secondeye {
+    position: absolute;
+    right: 398px;
+    background-color: #f5eaff;
+    top: 600px;
+
+}
+
+#firsteye {
+    position: absolute;
+    right: 398px;
+    background-color: #f5eaff;
+    top: 500px;
+}
+
+#facebook {
+    margin-left: 128px;
+    background-color: white;
+}
