@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Fredoka&display=swap');
 
 body {
@@ -18,7 +19,7 @@ body {
 
 img {
     height: 600px;
-    width: 600px;
+  width: 100%;
     margin-top: 40px;
 }
 
@@ -29,6 +30,7 @@ h1 {
 }
 
 .form {
+    color: rgb(73, 72, 72);
     width: 35%;
     padding: 35px;
     border-left: solid gray 2px;
@@ -40,6 +42,7 @@ h2 {
     padding-left: 15px;
     margin-top: auto;
     margin-bottom: -15px;
+    color:rgb(68, 67, 67);
 }
 
 p {
@@ -73,8 +76,8 @@ form input {
     margin-top: 10px;
     padding-left: 10px;
     border-radius: 5px;
-    border: none;
     border: solid black 1px;
+    background-color: white;
 }
 
 #firsteye {
@@ -92,7 +95,7 @@ form input {
 
 }
 
-#submit {
+button{
     background-color: #BA68C8;
     color: white;
     font-size: 20px;
@@ -103,7 +106,9 @@ form input {
     border: none;
 
 }
-
+button:hover{
+    background-color: rgb(145, 17, 145);
+}
 section {
     text-align: center;
     margin-bottom: 15px;
@@ -139,6 +144,7 @@ i {
     padding-top: 2px;
     padding-right: 40px;
 }
+
 
 #apple {
     margin-left: 126px;
